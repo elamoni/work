@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Untitled Document</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+
+<!--nivo slider link]-->
+<link rel="stylesheet" href="slider/themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="slider/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="slider/demo/slider_style.css" type="text/css" media="screen" />
+<!--nivo slider link]-->
+</head>
+
+<body>
+<br/>
+<div class="container" >
+   <div class="jumbotron">
+<!--START of HEADER-->
+	         <div id="banner"><!--[start banner slider]-->
+             <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img  src="slider/demo/images/toystory.jpg" data-thumb="slider/demo/images/toystory.jpg" alt="" />
+               
+				<img src="slider/demo/images/up.jpg" data-thumb="slider/demo/images/up.jpg" alt="" /></a>
+                <img src="slider/demo/images/walle.jpg" data-thumb="slider/demo/images/walle.jpg" alt="" />
+                <img src="slider/demo/images/nemo.jpg" data-thumb="slider/demo/images/nemo.jpg" alt=""  />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>   
+<script type="text/javascript" src="slider/demo/scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+     </div><!--[end banner slider]-->    
+
+ <nav class="navbar navbar-inverse" role="navigation">
+		  <div class="container" ><!--[coniner]-->
+<button class="navbar-toggle" data-toggle="collapse" data-target =".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+
+   <div class="navbar-header">
+      <a class="navbar-brand" href="#">Learn Yourself</a>
+   </div>
+    <div>
+      <ul class="nav navbar-nav navbar-right">
+         <li class="active"><a href="index.html">Home</a></li>
+		 <li><a href="course.html">Course Detail</a></li>
+         <li><a href="blog.html">Blog</a></li>
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+               Tutorial
+               <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+               <li><a href="#">HTML</a></li>
+               <li><a href="#">CSS</a></li>
+               <li><a href="#">PHP</a></li>
+               <li class="divider"></li>
+               <li><a href="#">Separated link</a></li>
+               <li class="divider"></li>
+               <li><a href="#">One more separated link</a></li>
+            </ul>
+         </li>
+		 <li><a href="about.html">About</a></li>
+		 <li><a href="#contact" data-toggle="modal">Contact</a></li>
+      </ul>
+   </div>
+   </div> 
+		  
+</nav>
+        
+<!--[main white row]--><!--[main white row]--><!--[main white row]--><!--[main white row]--><!--[main white row]--><!--[main white row]--><!--[main white row]-->    
+	  
+
+	  
+<div class="row"><!--[main white row]-->
+	  <div class="col-md-9" ><!--[col-md-9]-->
+
+
+
+
+<div class="panel panel-default">
+	<div class="panel-body">
+			
+			<!-- First Blog Post -->
+			<h2>
+			<a href="#">Learn Web Development in Easy way</a>
+			</h2>
+			<p class="lead">by <a href="index.php">Esmot Ela</a></p>
+			<p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2014 at 10:00 PM</p>
+			<hr>
+			<img class="img-responsive" src="images/b1.jpg" width="100%">
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
+			<a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+			<hr>
+  </div>
+</div>
+
+
+
+<div class="panel panel-default">
+	<div class="panel-body">
+			
+			<!-- First Blog Post -->
+			<h2>
+			<a href="#">Learn Web Development in Easy way</a>
+			</h2>
+			<p class="lead">by <a href="index.php">Esmot Ela</a></p>
+			<p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2014 at 10:00 PM</p>
+			<hr>
+			<img class="img-responsive" src="images/web.jpg" width="100%">
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
+			<a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+			<hr>
+  </div>
+</div>
+
+
+
+<div class="panel panel-default">
+	<div class="panel-body">
+			
+			<!-- First Blog Post -->
+			<h2>
+			<a href="#">Learn Web Development in Easy way</a>
+			</h2>
+			<p class="lead">by <a href="index.php">Esmot Ela</a></p>
+			<p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2014 at 10:00 PM</p>
+			<hr>
+			<img class="img-responsive" src="images/b1.jpg" width="100%">
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
+			<a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+			<hr>
+  </div>
+</div>
+
+
+
+		
+		
+ 
+
+	   </div><!--[col-md-9]-->
+	   
+<!--[side]-->	  <!--[side]-->	<!--[side]-->	<!--[side]-->	<!--[side]-->	<!--[side]-->	<!--[side]-->	<!--[side]-->	<!--[side]-->	 
+		
+		<div class="col-md-3"><!--[col-md-3]-->
+
+ <h4>Blog Search</h4>
+<div class="input-group">
+<input type="text" class="form-control">
+<span class="input-group-btn">
+<button class="btn btn-default" type="button">
+<span class="glyphicon glyphicon-search"></span>
+</button>
+</span>
+</div>
+<!-- /.input-group -->
+<br/>
+
+<div class="panel panel-success">
+  <!-- Default panel contents -->
+  <div class="panel-heading"> <h4>Blog Categories</h4></div>
+  <div class="panel-body">
+	<ul class="list-unstyled">
+		<li><a href="#">Category Name</a>
+		</li>
+		<li><a href="#">Category Name</a>
+		</li>
+		<li><a href="#">Category Name</a>
+		</li>
+		<li><a href="#">Category Name</a>
+		</li>
+	</ul>
+  </div>
+</div>	
+
+
+			
+	
+<div class="panel panel-warning">
+  <!-- Default panel contents -->
+  <div class="panel-heading"> <h4>Blog Archive</h4></div>
+  <div class="panel-body">
+	<ul class="list-unstyled">
+		<li><a href="#"> March 2014</a>
+		</li>
+		<li><a href="#">February 2014</a>
+		</li>
+		<li><a href="#">January 2014</a>
+		</li>
+		<li><a href="#"> December 2013</a>
+		</li>
+	</ul>
+  </div>
+</div>
+
+
+			
+		 </div><!--[col-md-3]-->
+		 
+</div><!--[main white row]-->
+		
+	  
+<center>
+	  
+<ul class="pagination">
+   <li class="disabled"><a href="#">&laquo;</a></li>
+  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">&raquo;</a>
+</ul></center>
+	  
+	  
+	  <br/><br/>
+	  
+	  <!--[//////////////////FOOTER//////////////////]-->
+
+<div class="navbar navbar-default"><!--[navbar]-->
+  <div class="container">
+		<p class="navbar-text pull-left">Site Built By Esmot Ela @ 2014</p>
+	  <a class="navbar-button btn-deafult btn pull-right"> <img src="images/images/f.jpg" alt="f" width="35" height="35">
+	  <img src="images/images/t.jpg" alt="t" width="35" height="35">
+	  <img src="images/images/rr.jpg" alt="rr" width="35" height="35">
+	  </a>	</div>
+</div><!--[navbar]-->
+<!--[//////////////////FOOTER//////////////////]-->
+	  
+   </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--[//////////////////CONTACT FORM//////////////////]-->
+<div class = "modal fade" id = "contact" rol="dialog">
+	<div class = "modal-dialog">
+		<div class = "modal-content">
+				<div class = "modal-header">
+				<p>Contact Tech Site</p>
+				</div>
+				<div class = "modal-body">
+					<form role="form">
+					  <div class="form-group">
+						<label for="exampleInputEmail1">Name</label>
+						<input type="text" class="form-control" id="exampleInputText" placeholder="Enter Name">
+					  </div>
+					  
+					  <div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email">
+						
+					  </div>
+					  <div class="form-group">
+					    <div class="form-group">
+						<label for="exampleInputEmail1">Message </label>
+						
+						<textarea class="form-control" rows="8"> </textarea>
+					  </div>
+					  
+					</form>
+					
+				</div>
+				<div class = "modal-footer">
+				
+				<a class="btn btn-default" data-dismiss = "modal">Submit</a>
+				<a class="btn btn-default" data-dismiss = "modal">Close</a>
+				</div>
+
+		</div>
+	</div>
+</div>
+				
+				
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
